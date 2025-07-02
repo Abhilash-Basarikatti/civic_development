@@ -1,13 +1,12 @@
 # 🏙️ Civic Issue Reporting Platform – MERN Stack Project
 
-A full-stack web application that empowers citizens to report local issues in their city — such as road damage, garbage, or broken streetlights — and helps authorities take timely action. The platform supports real-time issue submissions, image uploads, geolocation tagging, and city-based filtering to improve civic engagement and governance.
+A full-stack web application that empowers citizens to report local issues in their city — such as road damage, garbage, or broken streetlights — and helps authorities take timely action. The platform supports real-time issue submissions, image uploads, geolocation tagging to improve civic engagement and governance.
 
 ---
 
 ## ✨ Features
 
 - 📍 Users can upload city issues with images, descriptions, and location
-- 🗂 Filter and search by city/district (predefined list of 30)
 - 📌 Issues are displayed in both user profiles and city dashboards
 - 📤 Reports are stored in MongoDB with proper city and user mappings
 - 📬 Notification system to alert respective authorities (future scope)
@@ -24,6 +23,9 @@ A full-stack web application that empowers citizens to report local issues in th
 | Database   | MongoDB (with Mongoose) |
 
 ---
+## 🎯 Learning & Purpose
+
+This project was built with the goal of using technology for social good. It allowed me to apply core web development concepts like authentication, routing, session handling, and file uploads while also understanding how to manage a meaningful user experience through geolocation-based filtering and reporting. From a backend perspective, I gained hands-on experience integrating MongoDB with Mongoose, building a structured MVC-like Node.js application, and implementing secure authentication. It reflects how digital tools can be used to improve civic engagement and accountability.
 
 ## 📦 Setup Locally
 
