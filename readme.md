@@ -36,7 +36,7 @@ cd civic_development
 yarn install
 yarn start
 
----
+```
 
 ## 🎯 Learning & Purpose
 
