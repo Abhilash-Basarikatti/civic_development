@@ -3,11 +3,11 @@
     <div class="w-full px-4 flex items-center justify-between">
       <img class="w-1/4" src="/images/logo.png" alt="">
       <div class="icons -mt-2 flex gap-5 items-center">
-        <i class="text-[1.4rem] ri-heart-3-line"></i>
-        <i class="text-[1.4rem] ri-messenger-line"></i>
+        <!-- <i class="text-[1.4rem] ri-heart-3-line"></i>
+        <i class="text-[1.4rem] ri-messenger-line"></i> -->
       </div>
     </div>
-    <div class="story px-3 flex gap-3 overflow-auto mt-5">
+    <!-- <div class="story px-3 flex gap-3 overflow-auto mt-5">
       <a href="/story">
         <div class="circle flex-shrink-0">
           <div
@@ -30,7 +30,7 @@
           </div>
         </a>
         <% }) %>
-    </div>
+    </div> -->
     <div class="posts parent mb-20">
       <% posts.reverse().forEach(function(post){ %>
         <div class="post mt-10 w-full min-h-[50vh]">
@@ -56,8 +56,8 @@
                 <% } else { %>
                   <i class="heart ri-heart-3-fill text-red-500"></i>
                   <% } %>
-                    <i class="ri-chat-3-line"></i>
-                    <i class="ri-share-circle-line"></i>
+                    <!-- <i class="ri-chat-3-line"></i>
+                    <i class="ri-share-circle-line"></i> -->
             </div>
             <% if(user.saved.indexOf(post.id)===-1){ %>
               <i data-postid="<%= post.id %>" class="save ri-bookmark-line"></i>
@@ -66,7 +66,7 @@
                 <% } %>
           </div>
           <h3 class="likeval px-4 mt-2 text-sm leading-none tracking-tight">
-            <%= post.like.length %> likes
+            <%= post.like.length %> Attention
           </h3>
           <h2 class="text-white font-light text-sm mt-2">
             <span class="font-semibold pl-4 pr-2">
@@ -137,7 +137,7 @@
             .then(raw => raw.json())
             .then(response => {
               console.log(response.like.length);
-              post.querySelector(".likeval").textContent = response.like.length + " likes"
+              post.querySelector(".likeval").textContent = response.like.length + " Attention"
             })
 
           var icon = document.createElement("i");

@@ -8,6 +8,7 @@
         <div class="users">
 
         </div>
+        <!-- <div class="cities"></div> -->
     </div>
 
     <script>
@@ -40,4 +41,34 @@
             }
         })
     </script>
-    <% include ./partials/footer.ejs %>
+<!-- Search Page -->
+
+
+<!-- <script>
+  document.querySelector(".input").addEventListener("input", function (e) {
+    if (e.target.value !== '') {
+      fetch(`/search/${e.target.value}`)
+        .then(response => response.json())
+        .then(data => {
+          // Display users
+          const usersDiv = document.querySelector(".users");
+          usersDiv.innerHTML = data.users.map(user => `
+            <a href="/profile/${user.username}">
+              <div>${user.username}</div>
+            </a>
+          `).join('');
+
+          // Display cities
+          const citiesDiv = document.querySelector(".cities");
+          citiesDiv.innerHTML = data.cities.map(city => `
+            <a href="/city/${city._id}">
+              <div>${city.name}</div>
+            </a>
+          `).join('');
+        });
+    }
+  });
+</script> -->
+
+
+    <% include ./partials/footer.ejs %> 
