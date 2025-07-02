@@ -1,6 +1,6 @@
 # 🏙️ Civic Issue Reporting Platform – MERN Stack Project
 
-A full-stack web application that empowers citizens to report local issues in their city — such as road damage, garbage, or broken streetlights — and helps authorities take timely action. The platform supports real-time issue submissions, image uploads, geolocation tagging to improve civic engagement and governance.
+A full-stack web application that empowers citizens to report local issues in their city — such as road damage, garbage, or broken streetlights — and helps authorities take timely action. The platform supports real-time issue submissions, image uploads, and geolocation tagging to improve civic engagement and governance.
 
 ---
 
@@ -16,11 +16,13 @@ A full-stack web application that empowers citizens to report local issues in th
 
 ## 🧰 Tech Stack
 
-| Layer      | Technology           |
-|------------|-----------------------|
-| Frontend   | React.js, HTML, CSS   |
-| Backend    | Node.js, Express.js   |
-| Database   | MongoDB (with Mongoose) |
+| Layer      | Technology             |
+|------------|------------------------|
+| Frontend   | EJS, HTML, CSS         |
+| Backend    | Node.js, Express.js    |
+| Database   | MongoDB with Mongoose  |
+| Auth/File  | Passport.js, Multer    |
+| Tooling    | Nodemon, uuid, Morgan  |
 
 ---
 
@@ -33,6 +35,8 @@ git clone https://github.com/Abhilash-Basarikatti/civic_development.git
 cd civic_development
 yarn install
 yarn start
+
+---
 
 ## 🎯 Learning & Purpose
 
