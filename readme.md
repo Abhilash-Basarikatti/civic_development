@@ -1,4 +1,4 @@
-# 🏙️ Civic Issue Reporting Platform – MERN Stack Project
+# 🏙️ Civic Issue Reporting Platform
 
 A full-stack web application that empowers citizens to report local issues in their city — such as road damage, garbage, or broken streetlights — and helps authorities take timely action. The platform supports real-time issue submissions, image uploads, and geolocation tagging to improve civic engagement and governance.
 
